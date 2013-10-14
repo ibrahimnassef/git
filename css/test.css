@@ -1,0 +1,14 @@
+#test{
+	font-family: Arial;
+	width: 150px;
+}
+#clear{
+	width: 97px;
+}
+#results{
+	width: 250px;
+	background-color: rgb(231,231,231);
+	border: 1px solid #ccc;
+	font-family: Arial;
+	font-size: 16px;
+}

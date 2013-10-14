@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Test App</title>
+	<link rel="stylesheet" type="text/css" href="css/test.css" />
+</head>
+<body>
+	<button id="test">Click It</button>
+	<button id="clear">Clear</button>
+	<div id="results"></div>
+	
+<script src="js/zepto.min.js"></script>
+<script src="js/test.js"></script>
+<script>
+
+	$('#test').click(function(){
+		TEST.ClickIT($('#results'));
+	});
+
+	$('#clear').click(function(){
+		$('#results').html('');
+	});
+</script>
+</body>
+</html>
